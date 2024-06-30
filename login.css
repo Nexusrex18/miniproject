@@ -14,10 +14,7 @@
     justify-content: center;
     align-items: center;
 }
-.main2{
-    /* width: 50vw; */
-    /* height: 100vh; */
-}
+
 .main2 img{
     width: 50vw;
     height: 100vh;
@@ -115,4 +112,42 @@ button img{
 .exlogin a{
     text-decoration: none;
     color: blue;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+
+    background-color: rgb(130, 235, 177);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem burlywood;
+    z-index: 10;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.667);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+
+.modal-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px !important;
+    color: #000000;
 }

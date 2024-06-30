@@ -84,12 +84,12 @@
 button img{
     width:18px;
 }
-.btn{
+.butn{
     width:25vw;
     display: flex;
     justify-content: space-around;
 }
-.btn button{
+.butn button{
     background-color: white;
     border: 1px solid rgb(202, 201, 201);
     border-radius: 6px;
@@ -97,7 +97,7 @@ button img{
     display: flex;
     align-items: center;
 }
-.btn button:hover{
+.butn button:hover{
     background-color: rgb(220, 218, 218);
 
 }
